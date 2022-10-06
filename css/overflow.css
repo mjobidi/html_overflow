@@ -1,0 +1,43 @@
+body{
+    background-color: aqua;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.all-overflow{
+    background-color: white;
+    height: 80vh;
+    width: 40%;
+    box-shadow: 3px 5px 17px black;
+    border-radius: 4px;
+    padding: 10px;
+    /* overflow: hidden; */
+    overflow-y: scroll;
+}
+.all-img{
+    display: flex;
+    overflow-x: scroll;
+}
+.all-img img{
+    width: 4rem;
+    height: 5rem;
+    border-radius: 50%;
+    margin: 0 4%;
+}
+.btn a{
+    background-color: orangered;
+    color: white;
+    text-decoration: none;
+    padding: 8px 10px;
+    transition:all 3s ease;
+}
+.btn{
+    text-align: center;
+    margin: 20px 0;
+   
+}
+.btn a:hover{
+    background-color: yellow;
+    padding: 10px 15px;
+}
